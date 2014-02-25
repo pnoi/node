@@ -1,39 +1,42 @@
 {
-  "name": "pnoi",
-  "version": "0.0.1",
-  "description": "[WIP] PN:OI Node module for creative computations",
-  "author": "makesites",
-  "contributors": [
-    {
-      "name": "Makis Tracend",
-      "email": "makis@makesit.es"
-    },
-    {
-      "name": "Lyndel Thomas",
-      "email": "lyndelt@gmail.com"
-    }
-  ],
-  "homepage": "http://pnoi.net",
-  "keywords": [
-    "node", "express", "creative", "ai"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/makesites/pnoi"
-  },
-  "bugs": {
-    "url": "https://github.com/makesites/pnoi/issues"
-  }, 
-  "licenses": [
-    {
-      "type": "MIT License",
-      "url": "http://www.makesites.org/licenses/MIT"
-    }
-  ], 
-  "main": "./index.js",
-  "engines": {
-    "node": ">0.8.x"
-  },
-  "dependencies": {
-  }
+	"name": "pnoi",
+	"version": "0.0.1",
+	"description": "Node module for API requests to PN:OI",
+	"author": "makesites",
+	"contributors": [
+		{
+			"name": "Makis Tracend",
+			"email": "makis@makesit.es"
+		},
+		{
+			"name": "Lyndel Thomas",
+			"email": "lyndelt@gmail.com"
+		}
+	],
+	"homepage": "http://pnoi.net",
+	"keywords": [
+		"node", "express", "creative", "ai"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/makesites/pnoi"
+	},
+	"bugs": {
+		"url": "https://github.com/makesites/pnoi/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT License",
+			"url": "http://www.makesites.org/licenses/MIT"
+		}
+	],
+	"main": "./index.js",
+	"engines": {
+		"node": ">0.8.x"
+	},
+	"dependencies": {
+		"crudr": "*",
+		"brisk": "*",
+		"node-synapse": "*"
+	}
 }
