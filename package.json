@@ -37,6 +37,7 @@
 	"dependencies": {
 		"crudr": "*",
 		"brisk": "*",
+		"passport": "*",
 		"node-synapse": "*"
 	}
 }
