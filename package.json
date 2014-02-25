@@ -2,7 +2,7 @@
 	"name": "pnoi",
 	"version": "0.0.1",
 	"description": "Node module for API requests to PN:OI",
-	"author": "makesites",
+	"author": "kdi",
 	"contributors": [
 		{
 			"name": "Makis Tracend",
