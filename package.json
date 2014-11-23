@@ -1,25 +1,19 @@
 {
 	"name": "pnoi",
 	"version": "0.1.0",
-	"description": "Node module for API requests to PN:OI",
+	"description": "Remote API in Node.js for PN:OI",
 	"author": "kdi",
 	"contributors": [
-		{
-			"name": "Makis Tracend",
-			"email": "makis@kdi.co"
-		},
-		{
-			"name": "Lyndel Thomas",
-			"email": "lyndelt@kdi.co"
-		}
+		{ "name": "Makis Tracend", "email": "makis@kdi.co" },
+		{ "name": "Lyndel Thomas", "email": "lyndel@kdi.co" }
 	],
 	"homepage": "http://pnoi.net",
 	"keywords": [
-		"node", "express", "creative", "ai"
+		"node", "crud", "api", "json", "express", "creative", "ai"
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/pnoi/node"
+		"url": "git://github.com/pnoi/node.git"
 	},
 	"bugs": {
 		"url": "https://github.com/pnoi/node/issues"
@@ -30,14 +24,14 @@
 			"url": "http://www.makesites.org/licenses/MIT"
 		}
 	],
-	"main": "./index.js",
+	"main": ".index",
 	"engines": {
-		"node": ">0.8.x"
+		"node": ">=0.8.x"
 	},
+	"bin": { },
 	"dependencies": {
-		"crudr": "*",
-		"brisk": "*",
+		"underscore": "*",
 		"passport": "*",
-		"node-synapse": "*"
+		"passport-pnoi": "*"
 	}
 }
