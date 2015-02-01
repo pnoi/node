@@ -30,8 +30,9 @@
 	},
 	"bin": { },
 	"dependencies": {
-		"underscore": "*",
-		"passport": "*",
-		"passport-pnoi": "*"
+		"passport": "0.2.1",
+		"passport-pnoi": "*",
+		"request": "2.51.0",
+		"underscore": "1.7.0"
 	}
 }
